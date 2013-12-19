@@ -37,6 +37,9 @@ class test_maior_triangulo(unittest.TestCase):
   def test_acha_maior_triangulo_3(self):
     self.assertEqual(acha_maior_triangulo(['#']), 0)
 
+  def test_acha_maior_triangulo_4(self):
+    self.assertEqual(acha_maior_triangulo(['###', '-']), 1)
+
 
  
 if __name__ == '__main__':
